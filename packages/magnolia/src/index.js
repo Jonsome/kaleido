@@ -7,7 +7,7 @@ import history from './utils/history'
 import { ApolloProvider } from 'react-apollo'
 import { client } from './graphql/client'
 
-import App from './app'
+import App from './pages'
 
 ReactDOM.render(
   <ApolloProvider client={client}>
