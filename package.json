@@ -1,6 +1,7 @@
 {
   "name": "kaleido",
   "version": "1.0.0",
+  "private": true,
   "main": "index.js",
   "repository": "https://github.com/Jonsome/kaleido.git",
   "author": "Jonsir <zs.flying@gmail.com>",
@@ -12,7 +13,8 @@
     ]
   },
   "scripts": {
-    "clean": "lerna clean --yes"
+    "clean": "lerna clean --yes",
+    "start": "lerna run start"
   },
   "devDependencies": {
     "lerna": "^3.20.2"

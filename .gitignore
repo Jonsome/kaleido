@@ -9,7 +9,7 @@ dist
 
 # yarn file
 yarn.lock
-yarn-lock.json
 yarn-error.log
 
+package-lock.json
 lerna-debug.log

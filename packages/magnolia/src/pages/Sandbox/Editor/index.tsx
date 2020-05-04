@@ -38,7 +38,9 @@ const ContentSplit = () => {
             height: statusBar ? 'auto' : 'calc(100% - 3.5rem)',
             zIndex: 9,
           }}
-        ></div>
+        >
+          <SplitPane split="vertical" defaultSize={17*16} minSize={0}></SplitPane>
+        </div>
       </Container>
     </ThemeProvider>
   )
