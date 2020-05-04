@@ -1,8 +1,12 @@
 {
-  "name": "kaleido",
+  "name": "@kaleido/magnolia",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/Jonsome/kaleido.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jonsome/kaleido.git",
+    "directory": "packages/magnolia"
+  },
   "author": "Jonsir <zs.flying@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -11,6 +15,7 @@
   },
   "dependencies": {
     "@apollo/react-hooks": "^3.1.4",
+    "@kaleido/cactus": "^1.0.0",
     "@reach/auto-id": "^0.10.1",
     "@reach/visually-hidden": "^0.10.1",
     "@styled-system/css": "^5.1.5",

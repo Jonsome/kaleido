@@ -5,6 +5,12 @@
   "repository": "https://github.com/Jonsome/kaleido.git",
   "author": "Jonsir <zs.flying@gmail.com>",
   "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/cactus",
+      "packages/magolia"
+    ]
+  },
   "scripts": {
     "clean": "lerna clean --yes"
   },
