@@ -1,5 +1,5 @@
 {
-  "name": "kaleido",
+  "name": "@kaleido/iris",
   "version": "1.0.0",
   "private": true,
   "main": "index.js",
@@ -9,7 +9,8 @@
   "workspaces": {
     "packages": [
       "packages/cactus",
-      "packages/magolia"
+      "packages/magolia",
+      "packages/iris"
     ]
   },
   "scripts": {

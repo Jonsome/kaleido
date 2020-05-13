@@ -8,11 +8,17 @@
     "directory": "packages/cactus"
   },
   "license": "MIT",
-  "devDependencies": {
-    "typescript": "^3.8.3"
-  },
   "dependencies": {
+    "@styled-system/css": "^5.1.5",
     "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "@types/styled-components": "^5.1.0",
+    "@types/styled-system__css": "^5.0.8",
+    "typescript": "^3.8.3"
   }
 }
