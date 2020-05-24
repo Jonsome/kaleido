@@ -5,7 +5,9 @@ import styled, { ThemeProvider } from 'styled-components'
 
 import { useOvermind } from '../../../overmind'
 
+import Content from './Content'
 import { Container } from './elements'
+import { Workspace } from './Workspace'
 
 const STATUS_BAR_SIZE = 22
 
@@ -39,7 +41,10 @@ const ContentSplit = () => {
             zIndex: 9,
           }}
         >
-          <SplitPane split="vertical" defaultSize={17*16} minSize={0}></SplitPane>
+          <SplitPane split="vertical" defaultSize={17*16} minSize={0}>
+            <Workspace/>
+            <Content theme={localState.theme} />
+          </SplitPane>
         </div>
       </Container>
     </ThemeProvider>

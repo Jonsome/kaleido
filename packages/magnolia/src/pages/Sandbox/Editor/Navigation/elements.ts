@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { Stack } from '@codesandbox/components'
+import { Stack } from '../../../../components'
 
 export const Container = styled(Stack)`
   ${({

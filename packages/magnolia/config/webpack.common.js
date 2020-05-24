@@ -33,6 +33,18 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(svg)(\?.*)?$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'static/media/[name].[hash:8].[ext]',
+            },
+          },
+          { loader: 'svgo-loader' },
+        ],
+      },
     ],
   },
   resolve: {

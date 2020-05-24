@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import css from '@styled-system/css';
-import CrossIcon from 'react-icons/lib/md/clear';
+import CrossIcon from 'react-icons';
 
 import { Stack } from '../Stack';
 import { Button } from '../Button';
