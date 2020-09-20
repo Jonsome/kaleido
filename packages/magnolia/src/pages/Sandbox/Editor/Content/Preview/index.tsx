@@ -1,5 +1,5 @@
-import { ServerContainerStatus } from '@codesandbox/common/lib/types';
-import BasePreview from '@codesandbox/common/lib/components/Preview';
+import { ServerContainerStatus } from '../../../../../types';
+import BasePreview from '../../../../../building-block/Preview';
 import RunOnClick from '../../../../../building-block/RunOnClick';
 import React, { FunctionComponent, useState } from 'react';
 

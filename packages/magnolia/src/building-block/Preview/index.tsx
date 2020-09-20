@@ -1,10 +1,4 @@
-import {
-  actions,
-  dispatch,
-  listen,
-  registerFrame,
-  resetState,
-} from 'codesandbox-api';
+import { actions, dispatch, listen, registerFrame, resetState } from '../../api';
 import debounce from 'lodash/debounce';
 import React from 'react';
 import { Spring } from 'react-spring/renderprops.cjs';
